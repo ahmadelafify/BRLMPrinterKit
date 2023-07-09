@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Reunion Labs' => 'hernandez.f@rouninlabs.com' }
   s.source           = { :git => 'https://github.com/CodeMinion/BRLMPrinterKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.ios.vendored_frameworks = 'BRLMPrinterKit/BRLMPrinterKit.framework'
+  s.ios.vendored_frameworks = 'BRLMPrinterKit/BRLMPrinterKit.xcframework'
   s.pod_target_xcconfig = {  }
   s.user_target_xcconfig = { }
 end
