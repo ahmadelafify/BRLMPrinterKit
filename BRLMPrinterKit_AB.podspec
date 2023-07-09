@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BRLMPrinterKit_AB'
-  s.version          = '4.6.4'
+  s.version          = '4.6.4.1'
   s.summary          = "Pod for the BRLMPrinterKit / Brother's printers"
   s.description      = "This project is only a Pod for the Brother SDK v#{s.version}"
   s.homepage         = 'https://github.com/CodeMinion/BRLMPrinterKit.git'
