@@ -12,6 +12,8 @@ typedef NSString BRLMExternalAccessorySerialNumber;
 
 typedef NSString BRLMChannelExtraInfoKey;
 
+extern BRLMChannelExtraInfoKey * _Nonnull const BRLMChannelExtraInfoKeyAdvertiseLocalName;
+extern BRLMChannelExtraInfoKey * _Nonnull const BRLMChannelExtraInfoKeyIpAddress;
 extern BRLMChannelExtraInfoKey * _Nonnull const BRLMChannelExtraInfoKeyModelName;
 extern BRLMChannelExtraInfoKey * _Nonnull const BRLMChannelExtraInfoKeySerialNumber;
 extern BRLMChannelExtraInfoKey * _Nonnull const BRLMChannelExtraInfoKeyMacAddress;

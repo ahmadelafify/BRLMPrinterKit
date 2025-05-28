@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 
 #import <BRLMPrinterKit/BRLMPrinterDefine.h>
-
+#import <BRLMPrinterKit/BRLMTemplateObjectReplacer.h>
 #import <BRLMPrinterKit/BRLMPrinterDriver.h>
 #import <BRLMPrinterKit/BRLMPrinterDriverGenerator.h>
 #import <BRLMPrinterKit/BRLMError.h>
@@ -27,7 +27,16 @@
 #import <BRLMPrinterKit/BRLMQLPrintSettings.h>
 #import <BRLMPrinterKit/BRLMRJPrintSettings.h>
 #import <BRLMPrinterKit/BRLMTDPrintSettings.h>
+#import <BRLMPrinterKit/BRLMMWTemplatePrintSettings.h>
+#import <BRLMPrinterKit/BRLMPJTemplatePrintSettings.h>
+#import <BRLMPrinterKit/BRLMPTTemplatePrintSettings.h>
+#import <BRLMPrinterKit/BRLMQLTemplatePrintSettings.h>
+#import <BRLMPrinterKit/BRLMRJTemplatePrintSettings.h>
+#import <BRLMPrinterKit/BRLMTDTemplatePrintSettings.h>
 #import <BRLMPrinterKit/BRLMPrinterClassifier.h>
+#import <BRLMPrinterKit/BRLMPrinterConfig.h>
+#import <BRLMPrinterKit/BRLMPrinterConfigEnums.h>
 
 #import <BRLMPrinterKit/BRLMCustomPaperSize.h>
 #import <BRLMPrinterKit/BRLMValidatePrintSettings.h>
+#import <BRLMPrinterKit/BRLMFileAnalyzer.h>
